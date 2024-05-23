@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!!!!!</title>
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(1, 86, 101), rgb(69, 4, 92));
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+        }
+
+        .hbd {
+            font-size: 5vw;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .gift {
+            font-size: 3vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 2vh;
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 5vh;
+            width: 80%;
+        }
+
+        .images img {
+            border-radius: 16px;
+            border: 3px solid black;
+            width: 20vw;
+            max-width: 200px;
+            transition: transform 0.3s;
+        }
+
+        .images img:hover {
+            transform: scale(1.2);
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .hbd {
+                font-size: 6vw;
+            }
+
+            .gift {
+                font-size: 4vw;
+            }
+
+            .images img {
+                width: 25vw;
+                max-width: 180px;
+            }
+        }
+
+        @media only screen and (max-width: 700px) {
+            .hbd {
+                font-size: 8vw;
+            }
+
+            .gift {
+                font-size: 5vw;
+            }
+
+            .images {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hbd">
+        <span class="Happy">Happy</span> Birthdayyyy!!!
+    </div>
+    <div class="gift">
+        What do you need for your Birthdayy???
+    </div>
+    <div class="images">
+        <a href="2_happybirthday.html"><img src="laptop.png" alt="laptop"></a>
+        <a href="2_happybirthday.html"><img src="car.png" alt="car"></a>
+        <a href="2_happybirthday.html"><img src="iphone.png" alt="iphone"></a>
+    </div>
+</body>
+
+</html>

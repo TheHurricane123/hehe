@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgb(201, 226, 231), rgba(34, 68, 71, 0.458));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            position: relative; /* Ensure relative positioning for absolute children */
+        }
+        .words {
+            font-size: 2rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .img {
+            width: 80%;
+            max-width: 30rem;
+            height: auto;
+            margin-top: 2rem;
+        
+        }
+        @media (min-width: 600px) {
+            .words {
+                font-size: 2.5rem;
+            }
+            .lob {
+                font-size: 2.5rem;
+            }
+            .img {
+                max-width: 25rem;
+            }
+           
+        }
+        @media (min-width: 1024px) {
+            .words {
+                font-size: 3rem;
+            }
+            .lob {
+                font-size: 3rem;
+            }
+            .img {
+                max-width: 20rem;
+            }
+           
+        }
+        .another{
+            position: absolute;
+            top: 90%;
+            font-size: 2rem;
+            
+        }
+        .click{
+            text-decoration: none;
+            color:red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="words">
+            You really thought I would give that!!!!
+        </div>
+        <img src="cat.png" alt="cat" class="img">   
+    </div>
+    <div class="another">
+        Take this instead<a class="click" href="3_happybirthday.html">(click here)</a>
+
+    </div>
+</body>
+</html>
